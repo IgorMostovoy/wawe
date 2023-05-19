@@ -176,12 +176,10 @@ body {
   letter-spacing: 0.6px;
 }
 
-.about__text-section p{
-    margin-bottom: 30px;
+.about__text-section p {
+  margin-bottom: 30px;
 }
-
-.about__title {
-  margin-bottom: 96px;
+.title{
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -191,19 +189,230 @@ body {
   color: #01353e;
 }
 
-.about__text-second{
-margin-left: 120px;
+.about__title {
+  margin-bottom: 96px;
+  position: relative;
+  
 }
 
-.about__text-second p:first-child{
-margin-bottom: 48px;
+.about__title::before{
+  content: "";
+  position: absolute;
+  background-image: url('../images/stick.svg');
+  background-repeat: no-repeat;
+  top: 22px;
+  right: -50px;
+  width: 48px;
+  height: 85px;
 }
 
-.about__text-second p:nth-child(2){
-    margin-bottom: 64px;
+.about__text-second {
+  margin-left: 120px;
 }
 
-.about__text-second p:nth-child(3){
-    margin-bottom: 12px;
+.about__text-second p:first-child {
+  margin-bottom: 48px;
+}
+
+.about__text-second p:nth-child(2) {
+  margin-bottom: 64px;
+}
+
+.about__text-second p:nth-child(3) {
+  margin-bottom: 12px;
+}
+
+.get {
+  padding: 200px 0;
+  background-color: #f8f8f8;
+}
+
+.get__title {
+  margin-bottom: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.get__title::before{
+  content: "";
+  position: absolute;
+  background-image: url('../images/stick.svg');
+  background-repeat: no-repeat;
+  top: 18px;
+  right: 245px;
+  width: 48px;
+  height: 85px;
+}
+
+.get__items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 102px;
+ 
+}
+
+.get__item-title {
+  
+  margin-left: 130px;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  color: #242121;
+}  
+
+
+
+
+.get__item {
+   max-width: 350px;
+ position: relative;
+}
+
+
+
+
+.get__item::before {
+  content: "";
+ left: 75px;
+ top: 0;
+ width: 50px;
+ height: 50px;
+   position: absolute;
+  
+
+}
+.get__item--live::before{
+background-image: url('../images/sun.svg');
+background-repeat: no-repeat;
+
+
+}
+
+.get__item--fly::before{
+  background-image: url('../images/air.svg');
+  background-repeat: no-repeat;
+}
+
+.get__item--study::before{
+  background-image: url('../images/serf.svg');
+  background-repeat: no-repeat;
+}
+
+.get__item--live p{
+  margin-top: 33px;
+}
+
+.get__item--fly p{
+margin-top: 18px;
+}
+
+.get__item--study p{
+  margin-top: 18px;
+  
+}
+
+.get__item--live .get__item-title{
+  margin-top: 13px;
+}
+
+
+
+
+
+
+.get__inner{
+  margin-bottom: 200px;
+  display: flex;
+}
+
+.get__info{
+  width: 346px;
+  margin-right:254px;
+  flex:none;
+}
+
+.get__info-item{
+  position: relative;
+padding-bottom: 10px;
+
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 18px;
+
+letter-spacing: 0.6px;
+
+color: #242121;
+
+}
+
+.get__info-item img{
+  padding-bottom: 1px;
+  padding-top: 10px;
+}
+
+.get__info-item span{
+position: absolute;
+display: block;
+	right: 0;
+	top: 0;
+  font-weight: 400;
+font-size: 24px;
+line-height: 18px;
+letter-spacing: 0.6px;
+color: #242121;
+}
+
+.percent-top{
+  margin-right: 90px;
+}
+
+.percent-middle{
+  margin-right: 78px;
+}
+
+.percent-bottom{
+  margin-right: 45px;
+}
+
+.get__text p{
+  margin-bottom: 30px;
+} 
+
+.top{
+  background-color: #fff;
+  background-image: url('../images/pic-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right top;
+}
+
+.top__inner{
+  padding: 200px 0 347px;
+  max-width: 507px;
+}
+.top__title{
+  margin-bottom: 100px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.top__title::before{
+  content: "";
+  position: absolute;
+  background-image: url('../images/stick.svg');
+  background-repeat: no-repeat;
+  top: 18px;
+  right: -50px;
+  width: 48px;
+  height: 85px;
+}
+.top__text p{
+  margin-bottom: 30px;
 }
 
